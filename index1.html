@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti"></script>
+
+
+</head>
+<body>
+    <!-- Mode Selection -->
+    <div class="container" id="modeSelection">
+        <h1>Guess the Number</h1>
+        <button id="singlePlayerBtn">Single Player</button>
+        <button id="multiPlayerBtn">Multiplayer</button>
+    </div>
+
+    <!-- Single Player -->
+    <div class="container" id="singlePlayer" style="display: none;">
+        <h1>Single Player Mode</h1>
+        <p>Guess a number between 1 and 100!</p>
+        <input id="singleInp" type="number" placeholder="Enter your guess" />
+        <button id="singleSubmit">Guess</button>
+        <p id="singleMsg"></p>
+        <p>Attempts: <span id="singleAttempts">0</span></p>
+        <button class="restartBtn">Restart</button>
+    </div>
+
+    <!-- Multiplayer Setup -->
+    <div class="container" id="multiPlayerForm" style="display: none;">
+        <h1>Multiplayer Setup</h1>
+        <label>Number of Players:</label>
+        <input id="playerCount" type="number" min="2" placeholder="Enter number of players" />
+        <label>Number of Rounds:</label>
+        <input id="roundCount" type="number" min="1" placeholder="Enter number of rounds" />
+        <button id="startMultiGameBtn">Start Game</button>
+    </div>
+
+    <!-- Multiplayer -->
+    <div class="container" id="multiPlayer" style="display: none;">
+        <h1>Multiplayer Mode</h1>
+        <p>Player <span id="currentPlayer">1</span>, Round <span id="currentRound">1</span></p>
+        <input id="multiInp" type="number" placeholder="Enter your guess" />
+        <button id="multiSubmit">Guess</button>
+        <p id="multiMsg"></p>
+        <p>Attempts: <span id="multiAttempts">0</span></p>
+        <div id="scoreboard">
+            <h3>Scoreboard</h3>
+            <div id="scoreboardContent"></div>
+        </div>
+        <button class="restartBtn">Restart</button>
+    </div>
+
+    <!-- Winner Screen -->
+    <div class="container" id="winner" style="display: none;">
+        <h1>Game Over</h1>
+        <p id="winnerMsg"></p>
+        <button class="restartBtn">Restart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
