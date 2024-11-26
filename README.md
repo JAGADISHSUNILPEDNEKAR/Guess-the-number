@@ -1,4 +1,48 @@
-https://jagadishsunilpednekar.github.io/Guess-the-number/
+Play Online
+
+Check out the live version of the game here:
+Play Guess the Number: https://jagadishsunilpednekar.github.io/Guess-the-number/
+
+How to Install/Run Locally
+
+Clone the Repository:
+git clone https://github.com/your-username/guess-the-number.git
+cd guess-the-number
+Set Up a Local Live Server:
+Use Live Server Extension in Visual Studio Code (or any preferred editor).
+Open the index.html file in your editor and click on "Go Live" from the status bar (or use the Live Server shortcut).
+Access the Game:
+Once the server is running, navigate to http://127.0.0.1:5500/ (or the URL provided by your server).
+How to Set Up
+
+Project Files:
+Ensure the following files are in the same directory:
+index.html
+styles.css
+script.js
+Dependencies:
+This game uses the canvas-confetti library, which is included via a CDN in the index.html file:
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti"></script>
+Browser Compatibility:
+The game is optimized for modern browsers (e.g., Chrome, Firefox, Edge).
+How to Use the Game
+
+Start the Game:
+Choose a mode on the main menu:
+Single Player Mode: Play solo and try to guess the number with minimal attempts.
+Multiplayer Mode: Enter the number of players and rounds to start the game.
+Gameplay Instructions:
+Single Player Mode:
+Guess a number between 1 and 100.
+Receive hints ("Too High" or "Too Low") until you find the correct number.
+Your attempts are tracked, and a performance rank is displayed upon winning.
+Multiplayer Mode:
+Players take turns guessing the number for each round.
+Points are awarded based on attempts, with a leaderboard updated in real time.
+The player with the highest score at the end wins!
+Restart the Game:
+Click the Restart button anytime to reset the game.
+
 
 <img width="1440" alt="Screenshot 2024-11-25 at 3 39 11 PM" src="https://github.com/user-attachments/assets/4930d17b-ab76-449e-9837-975dba5fc42b">
 <img width="1440" alt="Screenshot 2024-11-25 at 3 39 40 PM" src="https://github.com/user-attachments/assets/38ea99b4-c8d0-438e-90d3-c0fd86038cec">
