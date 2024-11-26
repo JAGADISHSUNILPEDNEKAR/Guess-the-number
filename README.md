@@ -1,3 +1,6 @@
+A fun and engaging game where players guess a random number between 1 and 100. The game supports two modes: Single Player and Multiplayer. In Single Player, test your skills and get classified based on your performance. In Multiplayer, compete with friends across multiple rounds and achieve the highest score to win!
+
+
 Play Online
 
 Check out the live version of the game here:
@@ -85,7 +88,6 @@ Click the Restart button anytime to reset the game.
 <img width="1440" alt="Screenshot 2024-11-25 at 3 41 15 PM" src="https://github.com/user-attachments/assets/dbc10aba-6a67-4e9a-a2a1-0aa978daee1b">
 
 
-A fun and engaging game where players guess a random number between 1 and 100. The game supports two modes: Single Player and Multiplayer. In Single Player, test your skills and get classified based on your performance. In Multiplayer, compete with friends across multiple rounds and achieve the highest score to win!
 
 Features:
 
