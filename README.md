@@ -6,6 +6,11 @@ Play Online
 Check out the live version of the game here:
 Play Guess the Number: https://jagadishsunilpednekar.github.io/Guess-the-number/
 
+
+Demo video:
+https://github.com/user-attachments/assets/04795010-b735-4e6a-9376-02c2c86b08c9
+
+
 How to Install/Run Locally
 
 Clone the Repository:
