@@ -7,8 +7,23 @@ Check out the live version of the game here:
 Play Guess the Number: https://jagadishsunilpednekar.github.io/Guess-the-number/
 
 
+
 Demo video:
 https://github.com/user-attachments/assets/04795010-b735-4e6a-9376-02c2c86b08c9
+
+
+Screenshots of the game;
+
+
+<img width="1440" alt="Screenshot 2024-11-25 at 3 39 11 PM" src="https://github.com/user-attachments/assets/4930d17b-ab76-449e-9837-975dba5fc42b">
+<img width="1440" alt="Screenshot 2024-11-25 at 3 39 40 PM" src="https://github.com/user-attachments/assets/38ea99b4-c8d0-438e-90d3-c0fd86038cec">
+<img width="1440" alt="Screenshot 2024-11-25 at 3 39 53 PM" src="https://github.com/user-attachments/assets/7c3769b4-42e8-4c37-8859-701c784c9240">
+<img width="1440" alt="Screenshot 2024-11-25 at 3 40 02 PM" src="https://github.com/user-attachments/assets/369b4504-a218-462a-ac16-508ce5885dc4">
+<img width="1440" alt="Screenshot 2024-11-25 at 3 41 15 PM" src="https://github.com/user-attachments/assets/dbc10aba-6a67-4e9a-a2a1-0aa978daee1b">
+
+
+
+
 
 
 How to Install/Run Locally
@@ -18,11 +33,14 @@ git clone https://github.com/your-username/guess-the-number.git
 
 cd guess-the-number
 
+
 Set Up a Local Live Server:
 
 Use Live Server Extension in Visual Studio Code (or any preferred editor).
 
 Open the index.html file in your editor and click on "Go Live" from the status bar (or use the Live Server shortcut).
+
+
 
 Access the Game:
 
@@ -45,6 +63,8 @@ Dependencies:
 
 This game uses the canvas-confetti library, which is included via a CDN in the index.html file:
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti"></script>
+
+
 
 Browser Compatibility:
 
@@ -83,15 +103,6 @@ The player with the highest score at the end wins!
 Restart the Game:
 
 Click the Restart button anytime to reset the game.
-
-
-
-<img width="1440" alt="Screenshot 2024-11-25 at 3 39 11 PM" src="https://github.com/user-attachments/assets/4930d17b-ab76-449e-9837-975dba5fc42b">
-<img width="1440" alt="Screenshot 2024-11-25 at 3 39 40 PM" src="https://github.com/user-attachments/assets/38ea99b4-c8d0-438e-90d3-c0fd86038cec">
-<img width="1440" alt="Screenshot 2024-11-25 at 3 39 53 PM" src="https://github.com/user-attachments/assets/7c3769b4-42e8-4c37-8859-701c784c9240">
-<img width="1440" alt="Screenshot 2024-11-25 at 3 40 02 PM" src="https://github.com/user-attachments/assets/369b4504-a218-462a-ac16-508ce5885dc4">
-<img width="1440" alt="Screenshot 2024-11-25 at 3 41 15 PM" src="https://github.com/user-attachments/assets/dbc10aba-6a67-4e9a-a2a1-0aa978daee1b">
-
 
 
 Features:
